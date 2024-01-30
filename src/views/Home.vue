@@ -19,7 +19,7 @@ and Consulting Services</p> <p style="display:flex;flex-flow:row; gap:0rem;font-
             </div>
             <hr style="top:400px;">
             <hr style="top:405px;">
-            <div class="registered"  style="user-select:none;top:390px;width:200px;display:flex;flex-flow:row;gap:1rem;transform-origin: bottom left;transform:rotate(90deg)translatey(-20px);"><h3 style="display:flex;line-height:1;font-weight:800;"> Registered Civil Engineer <br>
+            <div class="registered"  style="user-select:none;top:400px;width:250px;display:flex;flex-flow:row;gap:1rem;transform-origin: bottom left;transform:rotate(90deg)translatey(-30px);"><h3 style="display:flex;line-height:1;font-weight:800;"> Registered Civil Engineer <br>
 Oregon, Washington, California</h3></div>
 
         </div>
