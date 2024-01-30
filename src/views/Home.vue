@@ -1,8 +1,8 @@
 <template>
     <header style="width:calc(100% - 4rem);top:0rem;margin:2rem;display:flex;flex-flow:row;gap:2rem;">
         <img src="EOC.svg" style="height:100px;" alt="">
-        <div class="info-box" style="border:2px solid black;padding:0.5rem 1rem;display:flex;flex-flow:column;justify-content: center;"><p style="font-size:2rem;font-weight:400;">Professional Structural Engineering
-and Consulting Services</p> <p style="display:flex;flex-flow:row; gap:1rem;font-weight:800;"><a href=""><b style="font-weight:800;">CALL US</b></a> | <a href=""><b  style="font-weight:800;">EMAIL US</b></a></p></div>
+        <div class="info-box" style="border:2px solid black;padding:0rem 0.8rem;display:flex;flex-flow:column;justify-content: center;"><p style="font-size:2rem;font-weight:400;margin-top:-0.5rem;border-bottom:2px  dotted black;user-select:none;margin-bottom:0.5rem;">Professional Structural Engineering
+and Consulting Services</p> <p style="display:flex;flex-flow:row; gap:0rem;font-weight:800;"> <b style="color:white;background:black;padding: 0rem 0.4rem;line-height:1.4;font-weight:800;user-select:none;">ENGINEER ON CALL</b><a href=""><b style="padding: 0.1rem 0.4rem;font-weight:800;line-height:1.4;border:1px solid black;border-right:unset;">CALL US</b></a><a href=""><b  style="padding: 0.1rem 0.4rem;border:1px solid black;font-weight:800;line-height:1.4;">EMAIL US</b></a></p></div>
         <div class="info-box" style="border:1px solid black;padding:1rem;display:flex;"><p style="font-weight:400;"></p></div>
      
     </header>
@@ -10,7 +10,7 @@ and Consulting Services</p> <p style="display:flex;flex-flow:row; gap:1rem;font-
         <div class="main-content" style="width:100%;height:calc(100vh - 15rem);background-image:url(octopo.jpg);background-position: center;filter:saturate(0)brightness(1.8)contrast(1);box-shadow:inset 0px 0px 200px white;"></div>
         <div class="sidebar" style="height:calc(100vh - 14rem);margin-top:-10rem;border:4px solid black;width:100px; ">
 
-            <div class="row-to-column" style="border-top:4px solid black;width:fit-content;display:flex;flex-flow:row;left:30px;gap:1rem;transform-origin: bottom left;transform:rotate(90deg);">
+            <div class="row-to-column" style="user-select:none;border-top:4px solid black;width:fit-content;display:flex;flex-flow:row;left:30px;gap:1rem;transform-origin: bottom left;transform:rotate(90deg);">
                 <div><h3>HOME</h3></div>
                 <div><h3>ABOUT</h3></div>
                 <div><h3>SERVICES</h3></div>
@@ -19,7 +19,7 @@ and Consulting Services</p> <p style="display:flex;flex-flow:row; gap:1rem;font-
             </div>
             <hr style="top:400px;">
             <hr style="top:405px;">
-            <div class="registered"  style="top:390px;width:200px;display:flex;flex-flow:row;gap:1rem;transform-origin: bottom left;transform:rotate(90deg)translatey(-20px);"><h3 style="display:flex;line-height:1;font-weight:800;"> Registered Civil Engineer <br>
+            <div class="registered"  style="user-select:none;top:390px;width:200px;display:flex;flex-flow:row;gap:1rem;transform-origin: bottom left;transform:rotate(90deg)translatey(-20px);"><h3 style="display:flex;line-height:1;font-weight:800;"> Registered Civil Engineer <br>
 Oregon, Washington, California</h3></div>
 
         </div>
