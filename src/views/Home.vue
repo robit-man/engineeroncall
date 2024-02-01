@@ -133,7 +133,7 @@ export default {
 }
 
 .info-box-title {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-top: -0.5rem;
     user-select: none;
