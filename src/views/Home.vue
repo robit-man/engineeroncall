@@ -11,14 +11,45 @@
         </div>
     </header>
     <div class="bg-style">
-        <div class="main-content"></div>
+        <div class="main-content">
+            <div class="home" style="display:flex;flex-flow:row;">
+                <div class="parent-wrapper">
+                    <div class="wrapper" style="width:512px;padding:4rem;backdrop-filter:blur(2px);background:#fff2;box-shadow:0px 0px 50px 50px #fffa;">
+                        <h3>ENGINEER ON CALL</h3><br>
+                        <p> is an distinct engineering firm, specializing in structural engineering services*, designed to provide our customers with rapid response for building and design solutions. When you don’t have the time to deal with a large firm, we
+                            are the answer for prompt, professional and registered engineering services. </p>
+                    </div>
+                    <div class="wrapper" style="width:512px;padding:4rem;backdrop-filter:blur(2px);background:#fff2;box-shadow:0px 0px 50px 50px #fffa;">
+                        <h3>
+                            OUR PHILOSOPHY </h3><br>
+                        <p> Each project (and each customer) is unique. A one-size-fits-all approaches never helps your project complete on time. Our custom solutions take advantage of opportunities that our competitors can't. </p>
+                    </div>
+                </div>
+                <div class="images" style="background:#0009;border:2px solid #0005;display:flex;flex-flow:column;justify-content:space-between;box-shadow:0px 0px 50px 50px #fffa;backdrop-filter:blur(2px);color:white;padding:2rem ;line-height:1;border-radius:0.5rem;">
+                    <h3>We offer an innovative approach for efficient and cost effective building and structural design work. </h3>
+                    <img src=" background:grey;width:100%;height:300px;" alt="">
+
+                    <p style="color:white;">Designs, inspections, plan reviews, consulting, construction administration and interdisciplinary coordination</p>
+                </div>
+            </div>
+        </div>
         <div class="sidebar">
             <div class="row-to-column">
-                <div><h3>HOME</h3></div>
-                <div><h3>ABOUT</h3></div>
-                <div><h3>SERVICES</h3></div>
-                <div><h3>CONTACT</h3></div>
-                <div><h3>NEWS</h3></div>
+                <div>
+                    <h3>HOME</h3>
+                </div>
+                <div>
+                    <h3>ABOUT</h3>
+                </div>
+                <div>
+                    <h3>SERVICES</h3>
+                </div>
+                <div>
+                    <h3>CONTACT</h3>
+                </div>
+                <div>
+                    <h3>NEWS</h3>
+                </div>
             </div>
             <div class="registered">
                 <h3>Registered Civil Engineer <br> Oregon, Washington, California</h3>
@@ -109,15 +140,18 @@ export default {
 </script>
 
 <style lang="scss">
- @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
- .header-style {
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.header-style {
     width: calc(100% - 4rem);
     top: 0rem;
     margin: 2rem;
     display: flex;
     flex-flow: row;
     gap: 2rem;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .header-img {
@@ -197,7 +231,8 @@ export default {
 .row-to-column {
     user-select: none;
     height: 32px;
-    width: fit-content;line-height:2rem; 
+    width: fit-content;
+    line-height: 2rem;
     display: flex;
     flex-flow: row;
     left: 30px;
@@ -208,8 +243,7 @@ export default {
 
 .registered {
     height: 32px;
-    user-select: none;   
-
+    user-select: none;
     top: 400px;
     width: 250px;
     display: flex;
@@ -217,20 +251,24 @@ export default {
     gap: 1rem;
     transform-origin: bottom left;
     transform: rotate(90deg) translatey(-30px);
-    h3{font-weight:800;line-height:1rem; font-family: 'Barlow', sans-serif;}
-}
-
-*{    font-family: 'Barlow', sans-serif;
-}
-h1{}
-
-p{    
-    font-family: 'Barlow', sans-serif;
+    h3 {
+        font-weight: 800;
+        line-height: 1rem;
+        font-family: 'Barlow', sans-serif;
     }
-
-@media (max-width: 900px) {
-    
 }
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+@media (max-width: 900px) {}
 
 /* Add styles for your video player here */
 </style>
