@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="images" style="background:#0009;border:2px solid #0005;display:flex;flex-flow:column;justify-content:space-between;box-shadow:0px 0px 50px 50px #fffa;backdrop-filter:blur(2px);color:white;padding:2rem ;line-height:1;border-radius:0.5rem;">
-                    <h3>We offer an innovative approach for efficient and cost effective building and structural design work. </h3>
+                    <h3 style="  text-shadow: 0px 0px 2px black;">We offer an innovative approach for efficient and cost effective building and structural design work. </h3>
                     <img src=" background:grey;width:100%;height:300px;" alt="">
     
                     <p style="color:white;">Designs, inspections, plan reviews, consulting, construction administration and interdisciplinary coordination</p>
