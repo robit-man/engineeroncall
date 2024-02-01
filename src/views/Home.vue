@@ -12,20 +12,20 @@
     </header>
     <div class="bg-style">
         <div class="main-content">
-            <div class="home" style="display:flex;flex-flow:row;">
+            <div class="home" style="display:flex;flex-flow:wrap;">
                 <div class="parent-wrapper">
-                    <div class="wrapper" style="width:512px;padding:4rem;backdrop-filter:blur(2px);background:#fff2;box-shadow:0px 0px 50px 50px #fffa;">
+                    <div class="wrapper" style="width:512px;padding:4rem 2rem;backdrop-filter:blur(2px);background:#fff2;box-shadow:0px 0px 50px 50px #fffa;">
                         <h3>ENGINEER ON CALL</h3><br>
                         <p> is an distinct engineering firm, specializing in structural engineering services*, designed to provide our customers with rapid response for building and design solutions. When you don’t have the time to deal with a large firm, we
                             are the answer for prompt, professional and registered engineering services. </p>
                     </div>
-                    <div class="wrapper" style="width:512px;padding:4rem;backdrop-filter:blur(2px);background:#fff2;box-shadow:0px 0px 50px 50px #fffa;">
+                    <div class="wrapper" style="width:512px;padding:4rem 2rem;backdrop-filter:blur(2px);background:#fff2;box-shadow:0px 0px 50px 50px #fffa;">
                         <h3>
                             OUR PHILOSOPHY </h3><br>
                         <p> Each project (and each customer) is unique. A one-size-fits-all approaches never helps your project complete on time. Our custom solutions take advantage of opportunities that our competitors can't. </p>
                     </div>
                 </div>
-                <div class="images" style="background:#0009;border:2px solid #0005;display:flex;flex-flow:column;justify-content:space-between;box-shadow:0px 0px 50px 50px #fffa;backdrop-filter:blur(2px);color:white;padding:2rem ;line-height:1;border-radius:0.5rem;">
+                <div class="images" style="  width: 500px;background:#0009;border:2px solid #0005;display:flex;flex-flow:column;justify-content:space-between;box-shadow:0px 0px 50px 50px #fffa;backdrop-filter:brightness(0.5);color:white;padding:2rem ;line-height:1;border-radius:0.5rem;">
                     <h3 style="  text-shadow: 0px 0px 2px black;">We offer an innovative approach for efficient and cost effective building and structural design work. </h3>
                     <img src=" background:grey;width:100%;height:300px;" alt="">
     
@@ -219,8 +219,8 @@ h3 {
     height: calc(100vh - 15rem);
     background-image: url(/octopo.jpg);
     background-position: center;
-    filter: saturate(0) brightness(1.8) contrast(1);
-    box-shadow: inset 0px 0px 200px white;
+    filter: saturate(0) brightness(1.5) contrast(1);
+    box-shadow: inset 0px 0px 100px 20px white;
 }
 
 .sidebar {
